@@ -1,0 +1,23 @@
+{
+  "schema": "slx.echobench.nde-qualification/v1",
+  "passed": true,
+  "mapping": "slx.echobench.nde-single-ascan/v1",
+  "format_version": "4.4.0",
+  "shape": [
+    1,
+    1,
+    512
+  ],
+  "sample_tolerance": 0,
+  "h5py": "3.14.0",
+  "hdf5": "1.14.6",
+  "checks": [
+    "Official Properties and Setup schema validation",
+    "Independent HDF5 raw-sample equality",
+    "Native full-session roundtrip, including same session ID restoration",
+    "Invalid-quality export rejected",
+    "Changed public RF rejected without replacing session",
+    "External links rejected",
+    "Path traversal rejected"
+  ]
+}

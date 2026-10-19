@@ -1,0 +1,113 @@
+{
+  "api": "slx.echobench/v1",
+  "profile": "demo-ut-weld-v1",
+  "product_version": "0.1.0",
+  "transport": "private_inherited_pipes_json_lines_utf8",
+  "units": {
+    "position": "m",
+    "time": "s",
+    "sample_time": "us",
+    "amplitude": "normalized_full_scale",
+    "estimates": "mm"
+  },
+  "limits": {
+    "request_bytes": 65536,
+    "json_depth": 32,
+    "frames": 4096,
+    "samples_per_frame": 512,
+    "sample_interval_us": 0.04,
+    "events": 8192,
+    "annotations": 256,
+    "session_bytes": 67108864,
+    "job_timeout_host_s": 30
+  },
+  "scenarios": [
+    "weld",
+    "intact",
+    "training"
+  ],
+  "acquisition_profiles": [
+    "software_model"
+  ],
+  "processing_profiles": [
+    "threadx_renode",
+    "rtl_cosimulation"
+  ],
+  "included_builds": [
+    "model-A",
+    "model-B",
+    "threadx-A",
+    "threadx-B"
+  ],
+  "unavailable": [
+    "diconde",
+    "arbitrary_firmware",
+    "customer_plugins",
+    "real_hardware",
+    "robot_motion",
+    "advanced_ut",
+    "ai"
+  ],
+  "operations": [
+    "open",
+    "capabilities",
+    "diagnostics",
+    "state",
+    "scenario.load",
+    "configuration.set",
+    "probe.position",
+    "fault.set",
+    "acquire",
+    "scan.start",
+    "tick",
+    "pause",
+    "resume",
+    "stop",
+    "simulation.reset",
+    "frames.read",
+    "replay.seek",
+    "replay.start",
+    "replay.exit",
+    "calibration.reference",
+    "calibration.apply",
+    "comparison.run",
+    "processing.start",
+    "processing.state",
+    "processing.cancel",
+    "annotation.add",
+    "training.reveal",
+    "storage.set",
+    "session.save",
+    "session.load",
+    "report.get",
+    "report.export",
+    "nde.export",
+    "nde.import",
+    "nde.state",
+    "nde.cancel"
+  ],
+  "mmio": {
+    "base_hex": "0x50000000",
+    "registers": {
+      "0": "count_words",
+      "4": "data_signed_q15_pop",
+      "8": "overflow_flag",
+      "12": "gate_start_index",
+      "16": "gate_end_index",
+      "20": "gate_threshold_q15"
+    },
+    "fifo_words": 256,
+    "firmware_sample_input_words": 512
+  },
+  "nde": {
+    "version": "4.4.0",
+    "mapping": "slx.echobench.nde-single-ascan/v1",
+    "shape": [
+      1,
+      1,
+      512
+    ],
+    "quality": "complete_coupled_unsaturated",
+    "native_session_extension": true
+  }
+}

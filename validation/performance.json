@@ -1,0 +1,21 @@
+{
+  "cpu": "Intel Core i7-14700KF",
+  "embedded_job_render": {
+    "frames": 300,
+    "max_ms": 16.808,
+    "median_ms": 16.667,
+    "p95_ms": 16.731,
+    "window_s": 5
+  },
+  "godot": "4.5.2-stable (official)",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "limits": "Five-second local rendering observation; no guarantee on other PCs or emulated board timing.",
+  "max_frame_ms": 16.768,
+  "measured_frames": 301,
+  "median_frame_ms": 16.667,
+  "os": "Windows",
+  "p95_frame_ms": 16.706,
+  "profile": "1440x900, native desktop layout, 100% UI, GL compatibility, 2x MSAA, moving probe, live A/B/C scans, regenerated cables",
+  "sampled_points": 57,
+  "schema": "slx.echobench.render-performance/v1"
+}

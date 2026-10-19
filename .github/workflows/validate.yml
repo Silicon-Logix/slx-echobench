@@ -1,0 +1,41 @@
+# Silicon LogiX / SLX EchoBench
+# Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+name: Validate public EchoBench interface
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  public-sdk:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.13'
+      - name: Audit public source and pinned binaries
+        run: python scripts/audit-public.py
+      - name: Install pinned native runtime
+        run: python scripts/setup-runtime.py
+      - run: python scripts/audit-public.py --require-runtime
+      - name: Install pinned Godot
+        shell: pwsh
+        run: |
+          $godotZip = Join-Path $env:RUNNER_TEMP 'godot.zip'
+          Invoke-WebRequest 'https://github.com/godotengine/godot-builds/releases/download/4.5.2-stable/Godot_v4.5.2-stable_win64.exe.zip' -OutFile $godotZip
+          if((Get-FileHash -LiteralPath $godotZip -Algorithm SHA256).Hash.ToLower() -ne '3766090865330ab2a0ed33594520394b711c620b1378f9223904faeef60f2f14'){throw 'Godot checksum mismatch'}
+          Expand-Archive -LiteralPath $godotZip -DestinationPath "$env:RUNNER_TEMP/godot"
+      - name: Exercise public interface and binary SDK
+        shell: pwsh
+        run: |
+          $godotExe = "$env:RUNNER_TEMP/godot/Godot_v4.5.2-stable_win64_console.exe"
+          & $godotExe --headless --editor --path godot --import
+          if($LASTEXITCODE -ne 0){throw 'Import failed'}
+          & $godotExe --headless --path godot --script ../tests/public_smoke.gd -- "$env:RUNNER_TEMP/public-smoke.json"
+          if($LASTEXITCODE -ne 0){throw 'Smoke failed'}
+          if(-not (Get-Content "$env:RUNNER_TEMP/public-smoke.json" -Raw | ConvertFrom-Json).passed){throw 'Smoke evidence missing'}
+      - name: Verify clean source boundary after import
+        run: python scripts/audit-public.py --require-runtime

@@ -1,0 +1,349 @@
+{
+  "schema": "slx.echobench.upstream-runtime/v1",
+  "version": "1.16.1",
+  "url": "https://github.com/renode/renode/releases/download/v1.16.1/renode-1.16.1.windows-portable-dotnet.zip",
+  "archive_name": "renode-1.16.1.windows-portable-dotnet.zip",
+  "archive_sha256": "d09b7934cfd560cd06bde8f131ef78f521f10d423d5aac6096f2a583224aeb3e",
+  "files": {
+    "runtime/renode/.renode-root": {
+      "member": "renode_1.16.1-dotnet_portable/.renode-root",
+      "size": 36,
+      "sha256": "c5ee56542bb7c0e6a09850c5e262f3efe673ac7b5d8d276fa3c63a115afc4c23"
+    },
+    "runtime/renode/Renode.deps.json": {
+      "member": "renode_1.16.1-dotnet_portable/Renode.deps.json",
+      "size": 179976,
+      "sha256": "77b9d66753baaea9b0332a4f51b76688647d205f781c80c7e5e748babc7cb229"
+    },
+    "runtime/renode/Renode.runtimeconfig.json": {
+      "member": "renode_1.16.1-dotnet_portable/Renode.runtimeconfig.json",
+      "size": 469,
+      "sha256": "828feebaf42bd72e5cc928dd742a20d2c57717985ccefe40f28a8fd0c5be3d91"
+    },
+    "runtime/renode/System.IO.Compression.Native.dll": {
+      "member": "renode_1.16.1-dotnet_portable/System.IO.Compression.Native.dll",
+      "size": 831280,
+      "sha256": "2ff56bc844cbc3c0046d42bf218942e6a30cfd9feeb33bece039c06d5c018136"
+    },
+    "runtime/renode/clrjit.dll": {
+      "member": "renode_1.16.1-dotnet_portable/clrjit.dll",
+      "size": 1785136,
+      "sha256": "bb68bf2c02422190fca77a823f9cd38ea2bb97ed9bcfd16cdc424c2e5f3de6bb"
+    },
+    "runtime/renode/coreclr.dll": {
+      "member": "renode_1.16.1-dotnet_portable/coreclr.dll",
+      "size": 5040800,
+      "sha256": "b8962adcfb27934ff93f7fffe306e1f01b9342305e883443896204e24c68290b"
+    },
+    "runtime/renode/hostfxr.dll": {
+      "member": "renode_1.16.1-dotnet_portable/hostfxr.dll",
+      "size": 350504,
+      "sha256": "eef3310770dd503494c4b1c917394db18f1eece1600638c881023c30902934f1"
+    },
+    "runtime/renode/hostpolicy.dll": {
+      "member": "renode_1.16.1-dotnet_portable/hostpolicy.dll",
+      "size": 393376,
+      "sha256": "d4d9db2cee70e6ad857188f12f92a0532be6f7fc7412851c8ed54afdc30ccbcd"
+    },
+    "runtime/renode/libllvm-disas.dll": {
+      "member": "renode_1.16.1-dotnet_portable/libllvm-disas.dll",
+      "size": 32079019,
+      "sha256": "8dbcb23e8f31eeee86a105dc32e9571db45b38ff782f3534dfd9d136ab970d78"
+    },
+    "runtime/renode/licenses/AntShell-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/AntShell-license",
+      "size": 11391,
+      "sha256": "9f8a3bc320a8758f37279681d94e388e3b66c34fd54e2f10db70e38ed60ce97a"
+    },
+    "runtime/renode/licenses/AsyncIO-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/AsyncIO-license",
+      "size": 15921,
+      "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e"
+    },
+    "runtime/renode/licenses/AtkSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/AtkSharp-license",
+      "size": 25318,
+      "sha256": "99298c267c899aacd27769a07446f9aab31413fda884d2b540d34adbf063b096"
+    },
+    "runtime/renode/licenses/BigGustave-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/BigGustave-license",
+      "size": 1209,
+      "sha256": "79d0fc44716007dddc375601bca8879ad45bc1165bf9342b7a16572b4f41abe8"
+    },
+    "runtime/renode/licenses/BitMiracle.LibJpeg.NET-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/BitMiracle.LibJpeg.NET-license",
+      "size": 1685,
+      "sha256": "e12135fb9fb94b0f15e68ff0c71cc6d05268df6c3ed7afbf8963008d7a5fa974"
+    },
+    "runtime/renode/licenses/CairoSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/CairoSharp-license",
+      "size": 25318,
+      "sha256": "99298c267c899aacd27769a07446f9aab31413fda884d2b540d34adbf063b096"
+    },
+    "runtime/renode/licenses/CookComputing.XmlRpcV2-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/CookComputing.XmlRpcV2-license",
+      "size": 1073,
+      "sha256": "2d0df5db8e4e5055b229a5c646b35143236cc4ab45624b7b12f5203ae28732ff"
+    },
+    "runtime/renode/licenses/CxxDemangler-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/CxxDemangler-license",
+      "size": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    "runtime/renode/licenses/Dynamitey-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Dynamitey-license",
+      "size": 10300,
+      "sha256": "21d13fbf1e5d78fef096300e22eb1b8f24342c6f0e859378d547e6d157e43ae4"
+    },
+    "runtime/renode/licenses/ELFSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/ELFSharp-license",
+      "size": 3338,
+      "sha256": "d266150205806b72d49d14e2a4cec1c78194da4aa1166b1584a63c73a43bff26"
+    },
+    "runtime/renode/licenses/FdtSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/FdtSharp-license",
+      "size": 1109,
+      "sha256": "70ba0c830048a15ff38428c6668baef4c2813bde3ddca783be5c1f15795569c8"
+    },
+    "runtime/renode/licenses/FlatBuffers-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/FlatBuffers-license",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "runtime/renode/licenses/GLibSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/GLibSharp-license",
+      "size": 25318,
+      "sha256": "99298c267c899aacd27769a07446f9aab31413fda884d2b540d34adbf063b096"
+    },
+    "runtime/renode/licenses/GdkSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/GdkSharp-license",
+      "size": 25318,
+      "sha256": "99298c267c899aacd27769a07446f9aab31413fda884d2b540d34adbf063b096"
+    },
+    "runtime/renode/licenses/GioSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/GioSharp-license",
+      "size": 25318,
+      "sha256": "99298c267c899aacd27769a07446f9aab31413fda884d2b540d34adbf063b096"
+    },
+    "runtime/renode/licenses/GtkSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/GtkSharp-license",
+      "size": 25318,
+      "sha256": "99298c267c899aacd27769a07446f9aab31413fda884d2b540d34adbf063b096"
+    },
+    "runtime/renode/licenses/InpliTftpServer-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/InpliTftpServer-license",
+      "size": 1472,
+      "sha256": "bf184eff1d7578320d9a9d58d0ff4f376eb15254ed04e50f29a19c5cffdc78a5"
+    },
+    "runtime/renode/licenses/IronPython-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/IronPython-license",
+      "size": 9159,
+      "sha256": "7ef159fd8db5a7a9e8051aac48997353f26d744e25f730a0594a806c126d2114"
+    },
+    "runtime/renode/licenses/IronPython.Modules-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/IronPython.Modules-license",
+      "size": 9159,
+      "sha256": "7ef159fd8db5a7a9e8051aac48997353f26d744e25f730a0594a806c126d2114"
+    },
+    "runtime/renode/licenses/LZ4-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/LZ4-license",
+      "size": 1320,
+      "sha256": "5a90a65b0eddc56c202be219b5673ac92d3127027c441bf84bfaa510f72ec57c"
+    },
+    "runtime/renode/licenses/Microsoft.Dynamic-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Microsoft.Dynamic-license",
+      "size": 9206,
+      "sha256": "d4c25a7938b683021bd58bacb0a48beefcb7f5e76cab14d0ff541e5137caa984"
+    },
+    "runtime/renode/licenses/Microsoft.Scripting-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Microsoft.Scripting-license",
+      "size": 9206,
+      "sha256": "d4c25a7938b683021bd58bacb0a48beefcb7f5e76cab14d0ff541e5137caa984"
+    },
+    "runtime/renode/licenses/Microsoft.Scripting.Metadata-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Microsoft.Scripting.Metadata-license",
+      "size": 9206,
+      "sha256": "d4c25a7938b683021bd58bacb0a48beefcb7f5e76cab14d0ff541e5137caa984"
+    },
+    "runtime/renode/licenses/Migrant-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Migrant-license",
+      "size": 1110,
+      "sha256": "2fe3abce122122c8e429f1adf2029979d75ddabee5bf155994f1cdfcf76b4ed3"
+    },
+    "runtime/renode/licenses/Mono.Cecil-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Mono.Cecil-license",
+      "size": 1098,
+      "sha256": "13d58ecbed676511c0c4c4009bff107025e50007ff5e7901dc562700ec62509e"
+    },
+    "runtime/renode/licenses/Mono.Linq.Expressions-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Mono.Linq.Expressions-license",
+      "size": 1112,
+      "sha256": "89f16ecfcd8e41c4fc14a51ddd98e4891d133545ba28ac1ccb01436e2b61bab7"
+    },
+    "runtime/renode/licenses/Mono.TextTemplating-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Mono.TextTemplating-license",
+      "size": 1291,
+      "sha256": "76856a9562052a4f251e13bcddfee323d6cfd161c0c52135714309121a029dbd"
+    },
+    "runtime/renode/licenses/Moq-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Moq-license",
+      "size": 1597,
+      "sha256": "e70a0e27de1ad1979e380fb080a43ec5250775e7bc5439492caed802b64db002"
+    },
+    "runtime/renode/licenses/NetMQ-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/NetMQ-license",
+      "size": 8363,
+      "sha256": "5c435f899811e8e93e055a4dfaa0782fdd1f6b1e67a1f695a23eb610b74e9e57"
+    },
+    "runtime/renode/licenses/Nini-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Nini-license",
+      "size": 1091,
+      "sha256": "a87c1abbdc80325f1a771c360937a5f82486e814e1aa53c0fc20a4761447170c"
+    },
+    "runtime/renode/licenses/Packet.Net-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Packet.Net-license",
+      "size": 7637,
+      "sha256": "9ccf26cfe845e0eb8bb58053e47366e7ab6b697ae010f7650978d4b71b7d1fc1"
+    },
+    "runtime/renode/licenses/PangoSharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/PangoSharp-license",
+      "size": 25318,
+      "sha256": "99298c267c899aacd27769a07446f9aab31413fda884d2b540d34adbf063b096"
+    },
+    "runtime/renode/licenses/PeakRDL-renode-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/PeakRDL-renode-license",
+      "size": 11360,
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+    },
+    "runtime/renode/licenses/PeakRDL-repl-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/PeakRDL-repl-license",
+      "size": 11360,
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+    },
+    "runtime/renode/licenses/RobotoMono-Regular-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/RobotoMono-Regular-license",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "runtime/renode/licenses/Sprache-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/Sprache-license",
+      "size": 1079,
+      "sha256": "fa45290e457aea6f7b65d35899ac9fea96d68c18b115247d4d9e4c58fb27649a"
+    },
+    "runtime/renode/licenses/bc-csharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/bc-csharp-license",
+      "size": 1886,
+      "sha256": "15d34d6cbc4a2459412d2da00e517f7afa0186ebc52c0794b4fc0726319c7a5a"
+    },
+    "runtime/renode/licenses/dts2repl-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/dts2repl-license",
+      "size": 11342,
+      "sha256": "ac9bdcdfd8bf04f14929afa4cbf0219ee556158da674f25e59b64b2028ddeb7d"
+    },
+    "runtime/renode/licenses/ironpython-netcore-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/ironpython-netcore-license",
+      "size": 9159,
+      "sha256": "7ef159fd8db5a7a9e8051aac48997353f26d744e25f730a0594a806c126d2114"
+    },
+    "runtime/renode/licenses/libllvm-disas-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/libllvm-disas-license",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "runtime/renode/licenses/llvm-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/llvm-license",
+      "size": 15141,
+      "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+    },
+    "runtime/renode/licenses/mcs-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/mcs-license",
+      "size": 73469,
+      "sha256": "6bfbf50bb3153393043e10867114b898e7c57b608655f5f8828ce46bacb502e2"
+    },
+    "runtime/renode/licenses/mingw-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/mingw-license",
+      "size": 10919,
+      "sha256": "dace668745913b206ba08e2019a98210bc90d8bfb6d7301946559529843cdb59"
+    },
+    "runtime/renode/licenses/models_analyzer-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/models_analyzer-license",
+      "size": 11357,
+      "sha256": "69c5e51bfea69aabb42eebb14d47a42927321b0d6853386608dea1cf3cea4871"
+    },
+    "runtime/renode/licenses/nunit3-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/nunit3-license",
+      "size": 1069,
+      "sha256": "79c969d53f04481825eca8688e8f00cf7242f0e47a6abb5bb5245748a1d3d0b8"
+    },
+    "runtime/renode/licenses/options-parser-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/options-parser-license",
+      "size": 1105,
+      "sha256": "1935e39d7c5565b5830270ac47f1e6b104820d27c399a922a55bc01af807d2e1"
+    },
+    "runtime/renode/licenses/protobuf-net-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/protobuf-net-license",
+      "size": 975,
+      "sha256": "8fdfac9d2f8e091075be5e59c1aa5eb944175f45eb44834ae8ffd03a6580f515"
+    },
+    "runtime/renode/licenses/renode-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/renode-license",
+      "size": 1424,
+      "sha256": "f81b19ff9bc4b30fae51a59452ed227cbf35af683c50e7e5b443fd4eb04881c7"
+    },
+    "runtime/renode/licenses/socket-cpp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/socket-cpp-license",
+      "size": 1078,
+      "sha256": "edd57fc654350f0b229bfca56ba47ed715c1864fdefc846d22ce062c7dbeee82"
+    },
+    "runtime/renode/licenses/tcg-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/tcg-license",
+      "size": 146,
+      "sha256": "6f46304fbca2989bef001d97774606d3ab3b83bcdeef915a4193f65a947d0814"
+    },
+    "runtime/renode/licenses/termsharp-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/termsharp-license",
+      "size": 11411,
+      "sha256": "5d940a18b45d306b1374a3079fe58ebd473840aa60409dfa2f21e77f60a021f8"
+    },
+    "runtime/renode/licenses/tlib-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/tlib-license",
+      "size": 26561,
+      "sha256": "8eeb8c1de062d3cea3e5258e70d41213c905914617bd30274fad935a483815de"
+    },
+    "runtime/renode/licenses/ts-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/ts-license",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "runtime/renode/licenses/winpthreads-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/winpthreads-license",
+      "size": 2883,
+      "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177"
+    },
+    "runtime/renode/licenses/xwt-license": {
+      "member": "renode_1.16.1-dotnet_portable/licenses/xwt-license",
+      "size": 1079,
+      "sha256": "ba25b73018bd9a62e3d716b940751241fe9bbfe66e96a2844444bd63247f1e80"
+    },
+    "runtime/renode/mscordaccore.dll": {
+      "member": "renode_1.16.1-dotnet_portable/mscordaccore.dll",
+      "size": 1338392,
+      "sha256": "be164b3bf22f3960b05c382b5db2405e9aa71c461d1049b0f7fff04663cf257c"
+    },
+    "runtime/renode/mscordbi.dll": {
+      "member": "renode_1.16.1-dotnet_portable/mscordbi.dll",
+      "size": 1241640,
+      "sha256": "1e6106fb2313b9d4c106449a4061cf261777447f02b9df5f67e6bb3ff48db51a"
+    },
+    "runtime/renode/renode.exe": {
+      "member": "renode_1.16.1-dotnet_portable/renode.exe",
+      "size": 289229412,
+      "sha256": "895fddb36f65237af5a47928e49984cf1e1992e27e0d37546b3b8ea29ad57385"
+    },
+    "runtime/renode/scripts/monitor.py": {
+      "member": "renode_1.16.1-dotnet_portable/scripts/monitor.py",
+      "size": 2967,
+      "sha256": "5bc1aff104193f5408b9f7de5aa4fb5b593109a7b02c585413b07c9d7cee6903"
+    }
+  }
+}

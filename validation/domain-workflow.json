@@ -1,0 +1,18 @@
+﻿{
+  "passed": true,
+  "checks": [
+    "pose changes samples and indication",
+    "coupling loss is not evaluable",
+    "capability and contact enforcement",
+    "overflow changes samples and causal A/B result",
+    "two-point calibration agrees with model thickness",
+    "session SHA-256 and atomic roundtrip",
+    "synchronized seek/play/stop",
+    "HTML escaping and unit-labelled exports",
+    "bad import leaves session intact",
+    "intact scenario",
+    "raster pause/resume/completion",
+    "integer-pitch raster count",
+    "165-frame Q15 roundtrip preserves samples, results and hashes"
+  ]
+}

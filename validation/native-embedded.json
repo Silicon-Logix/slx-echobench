@@ -1,0 +1,181 @@
+{
+  "schema": "slx.echobench.native-embedded-test/v1",
+  "passed": true,
+  "platform": "Windows x64, native Renode 1.16.1 self-contained .NET",
+  "jobs": [
+    {
+      "acquisition_id": "b74a78d620765f68a262ca10702d45e2-0",
+      "difference_stage": "quality admission in compiled ThreadX acquisition task",
+      "effective_coupling": 1.0,
+      "fault": "none",
+      "firmware_a_sha256": "bd93fb99f6d4cdfc9ee396c0189f152393ce7a96bde59e31268fb5813ab05075",
+      "firmware_b_sha256": "4307a1f6a1d913c8444e5ebcaa4e34e43c0afa1887b6e9b97c72a1034f20232b",
+      "frame_index": 0,
+      "host_elapsed_s": 3.760499,
+      "input_sha256": "714d1854e260e6334ea0909c2d1d349deed8bd09c46e1b2e53ef00188b3873ea",
+      "job_id": "b74a78d620765f68a262ca10702d45e2-0-fw",
+      "profile": "threadx_renode",
+      "q15_sha256": "e9ee386f03d69d08adb1d920c4a836712b97aed07a7d44e5521e37b06614212d",
+      "results": [
+        {
+          "build": "threadx-A",
+          "count": 512,
+          "evaluable": true,
+          "indication": true,
+          "overflow": 0,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        },
+        {
+          "build": "threadx-B",
+          "count": 512,
+          "evaluable": true,
+          "indication": true,
+          "overflow": 0,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        }
+      ],
+      "rtl_library_sha256": null,
+      "rtl_sha256": null,
+      "same_inputs": true,
+      "sample_loss": "Burst mode drops 256 words in a 256-word FIFO; host fault model drops 64 words. Profiles have distinct acquisition contracts.",
+      "source": "compiled_firmware_execution"
+    },
+    {
+      "acquisition_id": "b74a78d620765f68a262ca10702d45e2-0",
+      "difference_stage": "quality admission in compiled ThreadX acquisition task",
+      "effective_coupling": 1.0,
+      "fault": "none",
+      "firmware_a_sha256": "bd93fb99f6d4cdfc9ee396c0189f152393ce7a96bde59e31268fb5813ab05075",
+      "firmware_b_sha256": "4307a1f6a1d913c8444e5ebcaa4e34e43c0afa1887b6e9b97c72a1034f20232b",
+      "frame_index": 0,
+      "host_elapsed_s": 3.7526188,
+      "input_sha256": "714d1854e260e6334ea0909c2d1d349deed8bd09c46e1b2e53ef00188b3873ea",
+      "job_id": "b74a78d620765f68a262ca10702d45e2-0-rtl",
+      "profile": "rtl_cosimulation",
+      "q15_sha256": "e9ee386f03d69d08adb1d920c4a836712b97aed07a7d44e5521e37b06614212d",
+      "results": [
+        {
+          "build": "threadx-A",
+          "count": 512,
+          "evaluable": true,
+          "indication": true,
+          "overflow": 0,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        },
+        {
+          "build": "threadx-B",
+          "count": 512,
+          "evaluable": true,
+          "indication": true,
+          "overflow": 0,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        }
+      ],
+      "rtl_library_sha256": "33cb380262de72deebd66da294f20cf1fc76f3fd5a811ec6468cae1e54cad350",
+      "rtl_sha256": "07a8cff63c35e418748f59bc8c6ef8703eb5efc6e68efd64cb786128290b6f1f",
+      "same_inputs": true,
+      "sample_loss": "Burst mode drops 256 words in a 256-word FIFO; host fault model drops 64 words. Profiles have distinct acquisition contracts.",
+      "source": "compiled_firmware_execution"
+    },
+    {
+      "acquisition_id": "b74a78d620765f68a262ca10702d45e2-1",
+      "difference_stage": "quality admission in compiled ThreadX acquisition task",
+      "effective_coupling": 1.0,
+      "fault": "overflow",
+      "firmware_a_sha256": "bd93fb99f6d4cdfc9ee396c0189f152393ce7a96bde59e31268fb5813ab05075",
+      "firmware_b_sha256": "4307a1f6a1d913c8444e5ebcaa4e34e43c0afa1887b6e9b97c72a1034f20232b",
+      "frame_index": 1,
+      "host_elapsed_s": 3.7448399,
+      "input_sha256": "dde6fd715608ad2522a448d32e83a18db1929b5553ef5bd2720acb05ca15dfa6",
+      "job_id": "b74a78d620765f68a262ca10702d45e2-1-fw",
+      "profile": "threadx_renode",
+      "q15_sha256": "ca3f91e71f55c00d9ba399cf4138f5d04e623cf5ee5bf8c39be9c77bd494fe06",
+      "results": [
+        {
+          "build": "threadx-A",
+          "count": 256,
+          "evaluable": true,
+          "indication": true,
+          "overflow": 1,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        },
+        {
+          "build": "threadx-B",
+          "count": 256,
+          "evaluable": false,
+          "indication": false,
+          "overflow": 1,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        }
+      ],
+      "rtl_library_sha256": null,
+      "rtl_sha256": null,
+      "same_inputs": true,
+      "sample_loss": "Burst mode drops 256 words in a 256-word FIFO; host fault model drops 64 words. Profiles have distinct acquisition contracts.",
+      "source": "compiled_firmware_execution"
+    },
+    {
+      "acquisition_id": "b74a78d620765f68a262ca10702d45e2-1",
+      "difference_stage": "quality admission in compiled ThreadX acquisition task",
+      "effective_coupling": 1.0,
+      "fault": "overflow",
+      "firmware_a_sha256": "bd93fb99f6d4cdfc9ee396c0189f152393ce7a96bde59e31268fb5813ab05075",
+      "firmware_b_sha256": "4307a1f6a1d913c8444e5ebcaa4e34e43c0afa1887b6e9b97c72a1034f20232b",
+      "frame_index": 1,
+      "host_elapsed_s": 3.6929642,
+      "input_sha256": "dde6fd715608ad2522a448d32e83a18db1929b5553ef5bd2720acb05ca15dfa6",
+      "job_id": "b74a78d620765f68a262ca10702d45e2-1-rtl",
+      "profile": "rtl_cosimulation",
+      "q15_sha256": "ca3f91e71f55c00d9ba399cf4138f5d04e623cf5ee5bf8c39be9c77bd494fe06",
+      "results": [
+        {
+          "build": "threadx-A",
+          "count": 256,
+          "evaluable": true,
+          "indication": true,
+          "overflow": 1,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        },
+        {
+          "build": "threadx-B",
+          "count": 256,
+          "evaluable": false,
+          "indication": false,
+          "overflow": 1,
+          "peak_index": 153,
+          "peak_q15": 25940,
+          "threadx_ticks": 14,
+          "time_simulated_s": 0.15
+        }
+      ],
+      "rtl_library_sha256": "33cb380262de72deebd66da294f20cf1fc76f3fd5a811ec6468cae1e54cad350",
+      "rtl_sha256": "07a8cff63c35e418748f59bc8c6ef8703eb5efc6e68efd64cb786128290b6f1f",
+      "same_inputs": true,
+      "sample_loss": "Burst mode drops 256 words in a 256-word FIFO; host fault model drops 64 words. Profiles have distinct acquisition contracts.",
+      "source": "compiled_firmware_execution"
+    }
+  ],
+  "cancellation_verified": true,
+  "selected_older_acquisition_event_verified": true
+}

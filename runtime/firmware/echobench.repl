@@ -1,0 +1,19 @@
+// Silicon LogiX / SLX EchoBench
+// Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+// License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+cpu: CPU.CortexM @ sysbus
+    cpuType: "cortex-m3"
+    nvic: nvic
+    PerformanceInMips: 20
+
+nvic: IRQControllers.NVIC @ sysbus 0xE000E000
+    systickFrequency: 6000000
+    IRQ -> cpu@0
+
+flash: Memory.MappedMemory @ sysbus 0x08000000
+    size: 0x80000
+
+ram: Memory.MappedMemory @ sysbus 0x20000000
+    size: 0x20000
+
+acquisition: Miscellaneous.EchoAcquisition @ sysbus 0x50000000

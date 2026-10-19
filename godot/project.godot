@@ -1,0 +1,25 @@
+; Silicon LogiX / SLX EchoBench
+; Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+; License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+config_version=5
+[application]
+config/name="SLX EchoBench"
+config/version="0.1.0"
+config/release_channel="development-preview"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://assets/echobench.svg"
+[display]
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/size/window_width_override=1440
+window/size/window_height_override=900
+window/size/min_width=1200
+window/size/min_height=760
+window/stretch/mode="disabled"
+window/dpi/allow_hidpi=true
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+anti_aliasing/quality/msaa_3d=2
+environment/defaults/default_clear_color=Color(0.953,0.961,0.976,1)

@@ -1,0 +1,99 @@
+{
+  "advanced_services": "Explicit custom-development cards; no advanced UT/AI execution claimed",
+  "cases": [
+    {
+      "analysis_width": 385.0,
+      "full_window": true,
+      "interface_scale": 1.0,
+      "native_3d_resolution": true,
+      "render_pixels": [
+        492,
+        501
+      ],
+      "requested_pixels": [
+        1200,
+        760
+      ],
+      "window_pixels": [
+        1200,
+        760
+      ]
+    },
+    {
+      "analysis_width": 393.0,
+      "full_window": true,
+      "interface_scale": 1.0,
+      "native_3d_resolution": true,
+      "render_pixels": [
+        724,
+        528
+      ],
+      "requested_pixels": [
+        1440,
+        900
+      ],
+      "window_pixels": [
+        1440,
+        900
+      ]
+    },
+    {
+      "analysis_width": 566.0,
+      "full_window": true,
+      "interface_scale": 1.0,
+      "native_3d_resolution": true,
+      "render_pixels": [
+        1031,
+        708
+      ],
+      "requested_pixels": [
+        1920,
+        1080
+      ],
+      "window_pixels": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "analysis_width": 796.0,
+      "full_window": true,
+      "interface_scale": 1.0,
+      "native_3d_resolution": true,
+      "render_pixels": [
+        1441,
+        708
+      ],
+      "requested_pixels": [
+        2560,
+        1080
+      ],
+      "window_pixels": [
+        2560,
+        1080
+      ]
+    },
+    {
+      "analysis_width": 385.0,
+      "full_window": true,
+      "interface_scale": 1.5,
+      "native_3d_resolution": true,
+      "render_pixels": [
+        849,
+        752
+      ],
+      "requested_pixels": [
+        1920,
+        1080
+      ],
+      "window_pixels": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "commercial_contact_visible": true,
+  "divider_drag_and_resize": true,
+  "maximized_full_window": true,
+  "passed": true
+}

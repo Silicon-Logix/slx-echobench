@@ -1,0 +1,24 @@
+name: Reproducible problem
+description: Report an issue with the public evaluation demo.
+body:
+  - type: markdown
+    attributes:
+      value: "Exclude customer data, firmware, secrets and personal paths. Use SECURITY.md for vulnerabilities."
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and scenario
+      description: Include the execution profile, fault, settings and replay state.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Version, Windows version, GPU, display size and UI scale. About can copy safe system information.

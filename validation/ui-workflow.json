@@ -1,0 +1,25 @@
+{
+  "asset_clip_seconds": 32.0,
+  "cable_audit_scope": "18 extreme/intermediate poses; centreline and four 1.8 mm offset rays, five selected rigid obstacles; first/last three segments excluded for connector contact. No continuous or all-scene collision proof.",
+  "cable_endpoint_error_m": 0.0,
+  "cable_obstacle_hits": [],
+  "contact_error_m": 0.0000000457763671413147,
+  "errors": [],
+  "frames": 77,
+  "minimum_sampled_bend_radius_m": 0.151564243552495,
+  "native_rtl_job": "completed",
+  "nde_roundtrip": "completed",
+  "passed": true,
+  "pose_samples": 18,
+  "screenshots": [
+    "workspace",
+    "technical-analysis",
+    "evidence",
+    "firmware-rtl",
+    "setup",
+    "about",
+    "section",
+    "provenance",
+    "compact"
+  ]
+}
